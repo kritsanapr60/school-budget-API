@@ -4,7 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "start": "node index.js"
+        "start": "node app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "",
     "license": "ISC",
@@ -32,9 +33,7 @@
         "passport-jwt": "^4.0.0",
         "path": "^0.12.7",
         "socket.io-client": "^3.1.0",
-        "socketio": "^1.0.0",
-        "dotenv": "^8.2.0",
-        "mongoose": "^5.11.8"
+        "socketio": "^1.0.0"
     },
     "engines": {
         "node": "12.14.1",
