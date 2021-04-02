@@ -81,7 +81,7 @@ app.use('/subEquipmentList', subEquipmentList);
 app.use('/history', historys);
 app.use('/historyList', historySubEquipment);
 
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 3000;
 
 app.listen(port, () => {
     console.log(`Server is runing at http://localhost:${port}`);
